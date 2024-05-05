@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+//TESTE
 @RestController // Indica que esta classe é um controlador REST
 @RequestMapping ("medicos") // Define a rota base para este controlador como "/medicos" (serve para salvar, atualizar ou excluir informações do banco)
 public class MedicoController {
